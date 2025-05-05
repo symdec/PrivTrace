@@ -31,4 +31,4 @@ if __name__ == "__main__":
     writer.save_trajectory_data_in_list_to_file(real_tra_list, fname.result_file_name)
     print('end all')
     print(datetime.datetime.now())
-    pass
+    

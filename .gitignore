@@ -1,0 +1,9 @@
+# project-related
+generated_tras.txt
+
+# python
+**/__pycache__
+
+# pixi environments
+.pixi
+*.egg-info
