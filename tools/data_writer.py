@@ -29,3 +29,15 @@ class DataWriter:
                 file_object.write('\n')
         file_object.close()
 
+    def save_discrete_trajectory_data(self, trajectory_list: list[list[int]], file_path: str):
+        file_name = file_path
+        with open(file_name, 'w+') as file_object:
+            for i in range(len(trajectory_list)):
+                file_object.write("#" + str(i)+':\n')
+                file_object.write('>0:')
+                trajectory = trajectory_list[i]
+                for state in trajectory:
+                    file_object.write(str(state) + ';')
+                file_object.write('\n')
+        file_object.close()
+

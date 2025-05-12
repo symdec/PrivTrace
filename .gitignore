@@ -1,5 +1,7 @@
 # project-related
 generated_tras.txt
+outputs/*
+!outputs/.gitkeep
 
 # python
 **/__pycache__
