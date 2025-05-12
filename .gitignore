@@ -1,0 +1,7 @@
+.env
+.venv
+.pixi
+**/__pycache__
+
+# project specific
+generated_tras.txt
